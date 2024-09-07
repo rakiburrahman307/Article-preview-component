@@ -42,6 +42,7 @@ No specific installation steps are needed. You can directly open the `index.html
 Design crafted with care by **Rakibur Rahman** ✨🎨🚀  
 [LinkedIn Profile](https://www.linkedin.com/in/md-rakibur-rahman-14b33a2a4)  
 [Email Me](mailto:rakiburrahman307@gmail.com)
+[Live Demo](https://article-component-challenge-day-3.netlify.app)
 
 ---
 
