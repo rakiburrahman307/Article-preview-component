@@ -159,6 +159,7 @@
   color: hsl(212, 23%, 69%);
 }
 
+
 /* Responsive for Tablets (768px and below) */
 @media (max-width: 768px) {
   .container {
@@ -212,6 +213,7 @@
   .shape-tangle {
     display: none;
   }
+
 }
 
 /* Responsive for Mobile Devices (480px and below) */
@@ -283,7 +285,6 @@
     border: none;
     border-radius: 100%;
   }
-
   .shape-tangle {
     display: none;
   }

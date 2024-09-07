@@ -1,4 +1,4 @@
-## Article Preview Component
+# Article Preview Component
 
 ![Design preview for the Article Preview Component coding challenge](./design/desktop-preview.jpg)
 
