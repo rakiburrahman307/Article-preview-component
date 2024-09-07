@@ -11,6 +11,21 @@
     />
     <!-- style sheet link  -->
     <link rel="stylesheet" href="/css/style.css" />
+    <!-- fa icon  -->
+    <!-- Add this to your HTML head section -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- font awesome link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- title  -->
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
@@ -18,31 +33,76 @@
       <div class="card-container">
         <!-- image container  -->
         <div class="card-container-images">
-          <img src="/images/drawers.jpg" alt="drawers">
+          <img src="/images/drawers.jpg" alt="drawers" />
         </div>
         <!-- card info container  -->
         <div class="card-contents">
-          <h3>Shift the overall look and feel by adding these wonderful 
-            touches to furniture in your home
-            </h3>
-          <p>Ever been in a room and felt like something was missing? Perhaps 
-            it felt slightly bare and uninviting. I've got some simple tips 
-            to help you make any room feel complete.</p>
-         <div class="user-container">
-          <div class="user">
-            <div class="user-img-continer">
-              <img src="/images/avatar-michelle.jpg" alt="avatar-michelle" >
+          <h3>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h3>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I've got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <div class="user-container">
+            <div class="user">
+              <div class="user-img-container">
+                <img src="/images/avatar-michelle.jpg" alt="avatar-michelle" />
+              </div>
+              <div class="user-info">
+                <h4>Michelle Appleton</h4>
+                <p>28 Jun 2020</p>
+              </div>
             </div>
-            <div class="user-info">
-              <h4>Michelle Appleton</h4>
-              <p>28 Jun 2020</p>
-            </div>
+            <button class="svg-container">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+                <path
+                  fill="#6E8098"
+                  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                />
+              </svg>
+            </button>
           </div>
-         </div>
-        </div>
       </div>
+        <!-- share buttons  -->
+        <div class="social-media">
+          <span class="social-media-text">S H A R E</span>
+        <div class="icons">
+          <a
+          href="https://facebook.com"
+          target="_blank"
+          class="social-icon"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          class="social-icon"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        </div>
+        <button class="svg-container-mobile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+            <path
+              fill="#6E8098"
+              d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+            />
+          </svg>
+        </button>
+          <div class="shape-tangle"></div>
+        </div>  
+    </div>
     </section>
     <!-- script file link  -->
     <script src="/js/script.js"></script>
   </body>
 </html>
+
+<!-- #6E8098 -->
